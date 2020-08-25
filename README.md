@@ -19,7 +19,6 @@ $ npm install
 ```shell
 $ npm install -D nodemon 
 ```
-
 ```javascript
 {
   "name": "nodejs-practice",
@@ -31,7 +30,10 @@ $ npm install -D nodemon
   },
 }
 ```
-
+```shell
+$npm run dev
+```
+---
 > Heroku Deploy  
 ```shell
 $ heroku login
