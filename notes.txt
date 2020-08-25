@@ -1,0 +1,23 @@
+// Install package manager
+npm init
+
+// Installs all devDependencies for that project
+npm install
+
+// -D mean its a devDependencies
+npm install -D nodemon 
+
+
+//Module Wrapper Funtion
+//Before a module's code is executed, Node.js will wrap it with a function wrapper that looks like the following
+
+(function(exports, require, module, __filename, __dirname) {
+
+	//ALL THE JS CODE GOES IN THERE AUTOMATICALLY
+	// Module code actually lives in here
+
+})
+
+//Switch directory
+cd foldername
+node file_name.js
