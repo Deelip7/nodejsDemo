@@ -5,6 +5,11 @@
 $ npm init
 ```
 
+> Installs UUID
+```shell
+$ npm install uuid
+```
+
 > Installs all devDependencies
 ```shell
 $ npm install
